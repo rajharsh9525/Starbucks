@@ -1,0 +1,286 @@
+.nav{
+    height: 80px;
+    display:flex;
+    margin-left: 150px;
+    /* background-color: pink; */
+    text-align: center;
+}
+
+div a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 60px;
+    color: #212529;
+    font-size: medium;
+    padding: 10px 0px 10px 0px;
+}
+#logo{
+    margin-left: -150px;
+    padding-top: 20px;
+}
+a:active{
+    border-bottom: #0e382c solid;
+}
+#search{
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    margin-left: 200px;
+    width: 350px;
+}
+#searchit{
+    border-radius: 10px;
+    border: 0px;
+    height: 25px;
+    width: 250px;
+    padding-left: 20px;
+    border: groove;
+}
+#profile{
+    padding-top: 20px;
+    position: relative;
+    margin-left: 40px;
+}
+.color{
+    background-color: #0e382c;
+    height: 70px;
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.color a{
+    width: 100px;
+    height: 50px;
+    color: white;
+    position: relative;
+    margin-top: -25px;
+
+}
+button{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    background-color: #0e382c;
+    color: white;
+    border: 2px solid white;
+}
+#para{
+    font-size: large;
+    position: relative;
+    padding-top: 15px;
+    margin-left: -150px;
+}
+#img{
+    padding-top: 20px;
+    padding-left: 30px;
+    border-top-right-radius: 8px;
+}
+
+.img1{
+    height: 160px;
+    width: 350px;
+    /* background-color: pink; */
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 30px;
+    
+
+}
+h4{
+    display: inline;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+h2{
+    padding-top: 30px;
+    margin-left: 100px;
+    color: #212529;
+}
+h3{
+    padding-left: 15px;
+}
+.img2{
+    display: inline-block;
+    height: 160px;
+    width: 350px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cards{
+    display: flex;
+    margin-left: 100px;
+}
+.recommends{
+    background-color: #edebe9;
+    height: 350px;
+    margin-top: 40px;
+}
+.glass{
+    height: 250px;
+    background-image:linear-gradient(pink,white);
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+}
+#juice{
+    padding-top: 16px;
+}
+.elements{
+    margin-left: 10px;
+}
+#str{
+    margin-left: 0px;
+}
+#pric{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#strt{
+    justify-content: baseline;
+}
+.cuisines{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#h1{
+    margin-top: 80px;
+    color:#0e382c;
+    margin-left: 130px;
+}
+.cuisines img{
+    border: 2px solid #0e382c;
+    border-radius: 50%;
+}
+h5{
+    position: relative;
+    margin-left: 30px;
+    margin-top: -1px;
+}
+.offering h1{
+    color: #0e382c;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.images{
+    display: flex;
+    margin-left: 100px;
+}
+.image1{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    height: 360px;
+    width: 350px;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+}
+.image2{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    /* display: inline-block; */
+    height: 360px;
+    width: 350px;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 40px;
+}
+.image3{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    /* display: inline-block; */
+    height: 360px;
+    width: 350px;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 40px;
+}
+.image1 img{
+    border-radius: 10px 10px 0px 0px;
+}
+.image2 img{
+    border-radius: 10px 10px 0px 0px;
+}
+.image3 img{
+    border-radius: 10px 10px 0px 0px;
+}
+#parag{
+    font-size: smaller;
+    margin-left: 15px;
+}
+#price1{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.sack{
+    background-color: rgb(213, 206, 206);
+    margin-top: 80px;
+    height: 520px;
+    border-radius: 10px;
+}
+.backimg{
+    background-image: url(https://preprodtsbstorage.blob.core.windows.net/cms/uploads/coffee_culture_blog_web1_c6e691b286.jpg);
+    height: 350px;
+    width: 1000px;
+    background-size: cover;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.other h1{
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+#graph h1{
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    padding-top: 150px;
+}
+.backimg p{
+    color:white;
+    position: relative;
+    margin-left: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background-color: #0e382c;
+    height: 500px;
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.fst,.sec,.third,.fourth,.fifth{
+    padding-top: 50px;
+}
+li h3{
+    position: relative;
+    margin-left: -15px;
+}
+.tags{
+    background-color: #0e382c;
+    color: white;
+    margin-top: -17px;
+    border-top: white 2px;
+}
+.tags a{
+    color: white;
+}
